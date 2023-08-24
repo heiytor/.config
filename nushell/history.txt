@@ -1,0 +1,310 @@
+exit
+cd .config/nushell/
+nvim .
+exit
+asdf
+exit
+asdf
+cd .asdf/
+./scripts/test.bash
+v .
+nvim .
+./scripts/test.bash
+v .
+nvim test/asdf_nu.bats
+clear
+./scripts/test.bash
+path
+print $env.PATH
+clear
+./scripts/test.bash
+clear
+./scripts/test.bash
+clear
+./scripts/test.bash
+echo $env
+./scripts/test.bash
+print $env
+./scripts/test.bash
+clear
+./scripts/test.bash
+exit
+./scripts/test.bash
+ckear
+./scripts/test.bash
+clear
+./scripts/test.bash
+nvim test/asdf_nu.bats
+exit
+cd .asdf/
+./scripts/test.bash
+v test/asdf_nu.bats
+cd .asdf/
+./scripts/test.bash
+clear
+./scripts/test.bash
+clear
+./scripts/test.bash
+clear
+./scripts/test.bash
+clear
+./scripts/test.bash
+cat test/asdf_nu.bats
+hide-env
+let-env
+let-env FOO="a"
+let-env FOO = "a"
+hide-env FOO
+$env.FOO = "a"
+hide-env FOO
+print FOO
+$env.FOO = "a"
+print FOO
+print $FOO
+print $env.FOO
+hide-env FOO
+print $env.FOO
+hide-env -i
+hide-env -h
+./scripts/test.bash
+clear
+./scripts/test.bash
+clear
+./scripts/test.bash
+exit
+which hide-env
+which bats
+cd .asdf/
+./scripts/test.bash
+clear
+./scripts/test.bash
+exit
+nu
+./scripts/test.bash
+clear
+./scripts/test.bash
+clear
+./scripts/test.bash
+clear
+./scripts/test.bash
+cat test/asdf_nu.bats
+clear
+./scripts/test.bash
+clear
+./scripts/test.bash
+v asdf.nu
+nvim asdf.nu
+./scripts/test.bash
+clear
+./scripts/test.bash
+asdf info
+nu -c "asdf info"
+clear
+./scripts/test.bash
+clear
+./scripts/test.bash
+clear
+./scripts/test.bash
+clear
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim test/asdf_nu.bats
+nvim asdf.nu
+nvim test/asdf_nu.bats
+./scripts/test.bash
+clear
+./scripts/test.bash
+clear
+nvim test/asdf_nu.bats
+nvim asdf.nu
+nvim test/asdf_nu.bats
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+nu -c "asdf info"
+clear
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim test/asdf_nu.bats
+nvim asdf.nu
+nvim test/asdf_nu.bats
+./scripts/test.bash
+clear
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+plugins
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+nvim asdf.nu
+./scripts/test.bash
+asdf
+exit
+nu
+nvim asdf.nu
+asdf
+./scripts/test.bash
+exit
+cçear
+clear
+nvim .config/nushell/config.nu
+clear
+asdf
+awesome-config
+nvim .config/nushell/config.nu
+ac
+clear
+exit
+nu
+exit
+nu
+exit
+nvim .config/nushell/config.nu
+ac
+zc
+nc
+v
+clear
+exit
+nu
+exit
+nvim .config/nushell/config.nu
+exit
+nu
+nvim .config/nushell/config.nu
+alias
+ll
+clear
+exit
+nu
+cd .config/nushell/
+ls
+v  config.nu
+nvim config.nu
+exit
+nu
+exit
+cd .config/nushell/
+ll
+nvim config.nu
+ls
+ll
+nvim config.nu
+asdf
+v  config.nu
+nvim config.nu
+v  config.nu
+nvim config.nu
+clear
+ls
+exa
+v  config.nu
+nvim config.nu
+clear
+exa
+v
+v  config.nu
+exa
+v  config.nu
+gofumpt
+mockery
+v  config.nu
+nvim config.nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+cd .config/nushell/
+v  config.nu
+clear
+mockery
+v  config.nu
+exit
+nu
+v  config.nu
+clear
+v  config.nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+nu
+exit
+v  config.nu
+cd .config/nushell/
+clear
+v  config.nu
+clear
+v .asdf/asdf.nu
+exit
+cd .config/nushell/
+v config.nu
+clear
+v config.nu
+ll
+ls
+ac
+nc
+zc
+nc
+pyenv
+pyenv list
+pyenv -l
+pyenv versions -l
+pyenv version -l
+pyenv versions
+nvm
+yay -R spaceship-prompt
+cd
+exit
+nu
+exit
